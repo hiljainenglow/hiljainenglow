@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Hiljainen GLOW | Ambient artist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animoitu gradienttitausta -->
+    <div class="animated-bg"></div>
+    
+    <div class="container">
+        <!-- Hero-sektio -->
+        <div class="hero">
+            <div class="glow-effect"></div>
+            <h1 class="artist-name">
+                <span class="name-light">Hiljainen</span>
+                <span class="name-bold">GLOW</span>
+            </h1>
+            <p class="subtitle">Ambient · Elektroninen · Hiljaisuus</p>
+            <div class="hero-line"></div>
+        </div>
 
+        <!-- Moderni musiikkisoitin albumikansilla -->
+        <div class="music-section">
+            <h2>
+                <span class="section-icon">🎧</span>
+                Kuuntele
+            </h2>
+            
+            <div class="track-list">
+                <!-- Kappale 1 -->
+                <div class="track-item">
+                    <div class="track-artwork">
+                        <div class="artwork-placeholder">🎵</div>
+                    </div>
+                    <div class="track-details">
+                        <div class="track-number">01</div>
+                        <div class="track-title">Peli ilman sääntöjä</div>
+                        <div class="track-duration">4:32</div>
+                    </div>
+                    <audio class="track-audio" preload="metadata">
+                        <source src="track1.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="play-btn">
+                        <span class="play-icon">▶</span>
+                        <span class="pause-icon" style="display:none;">⏸</span>
+                    </button>
+                </div>
+
+                <!-- Kappale 2 -->
+                <div class="track-item">
+                    <div class="track-artwork">
+                        <div class="artwork-placeholder">🌙</div>
+                    </div>
+                    <div class="track-details">
+                        <div class="track-number">02</div>
+                        <div class="track-title">Kello kolme</div>
+                        <div class="track-duration">3:58</div>
+                    </div>
+                    <audio class="track-audio" preload="metadata">
+                        <source src="track2.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="play-btn">
+                        <span class="play-icon">▶</span>
+                        <span class="pause-icon" style="display:none;">⏸</span>
+                    </button>
+                </div>
+
+                <!-- Kappale 3 -->
+                <div class="track-item">
+                    <div class="track-artwork">
+                        <div class="artwork-placeholder">✨</div>
+                    </div>
+                    <div class="track-details">
+                        <div class="track-number">03</div>
+                        <div class="track-title">Ei enää meitä</div>
+                        <div class="track-duration">5:14</div>
+                    </div>
+                    <audio class="track-audio" preload="metadata">
+                        <source src="track3.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="play-btn">
+                        <span class="play-icon">▶</span>
+                        <span class="pause-icon" style="display:none;">⏸</span>
+                    </button>
+                </div>
+            
+
+                <!-- Kappale 4 -->
+                <div class="track-item">
+                    <div class="track-artwork">
+                        <div class="artwork-placeholder">🌙</div>
+                    </div>
+                    <div class="track-details">
+                        <div class="track-number">04</div>
+                        <div class="track-title">Liian pieni kämppä</div>
+                        <div class="track-duration">3:50</div>
+                    </div>
+                    <audio class="track-audio" preload="metadata">
+                        <source src="track4.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="play-btn">
+                        <span class="play-icon">▶</span>
+                        <span class="pause-icon" style="display:none;">⏸</span>
+                    </button>
+                </div>
+</div>
+            <!-- Nyt soimassa -indikaattori -->
+            <div class="now-playing" style="display:none;">
+                <div class="now-playing-bar">
+                    <div class="now-playing-animation">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <span class="now-playing-text"></span>
+                </div>
+            </div>
+        </div>
+
+<!-- Biografia - kuvan kanssa -->
+<div class="bio-section">
+    <h2>
+        <span class="section-icon">📖</span>
+        Tarina
+    </h2>
+    <div class="bio-card">
+        <div class="bio-flex">
+            <div class="bio-image">
+                <img src="hiljainen_glow.png" alt="Hiljainen GLOW" class="artist-photo">
+            </div>
+            <div class="bio-text">
+                <p>Hiljainen GLOW on suomalainen artisti, joka kutoo äänimaisemia hiljaisuuden ja valon välimaastossa. Debyytti-EP <span class="highlight">"Varjojen valo"</span> ilmestyy keväällä 2026.</p>
+                <p>Hiljainen GLOW kasvoi Tamperelaisessa betonihelvetissä nimeltään Hervanta. Kappaleissa onkin vahvaa ja kaunista tuntua siitä, millaista on elää viidennessä kerroksessa kuunnellen halpojen asuntojen äänimaailmaa.</p>
+               <div class="quote">"Musiikki on hiljaisuuden ääntä, joka muuttuu valoksi."</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Some - modernit ikonit -->
+        <div class="social-section">
+            <h2>
+                <span class="section-icon">🌊</span>
+                Seuraa
+            </h2>
+            <div class="social-grid">
+                <a href="https://www.instagram.com/hiljainen_glow/" class="social-card">
+                    <div class="social-icon">📷</div>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://www.youtube.com/@HiljainenGLOW" class="social-card">
+                    <div class="social-icon">▶️</div>
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Yhteystiedot -->
+        <div class="contact-section">
+            <div class="contact-card">
+                <span class="contact-icon">✉️</span>
+                <span class="contact-email">u8798912134@id.gle</span>
+                <button class="copy-btn" onclick="copyEmail()">Kopioi</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2026 Hiljainen GLOW</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
